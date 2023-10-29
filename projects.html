@@ -1,0 +1,568 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Education</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body class="is-preload">
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Main -->
+		<div id="main">
+			<div class="inner">
+
+				<!-- Header -->
+				<header id="header">
+					<a href="index.html" class="logo"><strong>Kevin</strong> Patel</a>
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/kevin-patel-50b18a195/"
+								class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/NvkAnirudh" class="icon brands fa-github"><span
+									class="label">GitHub</span></a></li>
+						<li><a href="https://www.instagram.com/kevin_28_patel/" class="icon brands fa-instagram"><span
+									class="label">Instagram</span></a></li>
+						<li><a href="https://medium.com/@kevin18patel" class="icon brands fa-medium-m"><span
+									class="label">Medium</span></a></li>
+					</ul>
+				</header>
+
+				<!-- Content -->
+				<section>
+					<header class="main">
+						<h1>Projects</h1>
+					</header>
+
+					<p>My portfolio includes seven projects on different topics focusing on Machine Learning, Computer
+						Vision, Data Analysis, Statistics, ETL, and Cloud Deployment (AWS).
+						Projects can be viewed by category below.</p>
+					<p>This page features projects from following topics:</p>
+					<ul>
+						<li><a href="#song">Song Playlist Generator System Based on Facial Expression and Song Mood</a></li>
+						<li><a href="#project_1">Computer Vision</a></li>
+						<li><a href="#project_3">Data Analysis</a></li>
+						<li><a href="#project_4">Statistical Analysis</a></li>
+						<li><a href="#project_5">Extract, Transform, and Load</a></li>
+					</ul>
+
+					<p>
+						<a id="#song"></a>
+					</p>
+
+					<div>
+						<h1>Machine Learning</h1>
+					</div>
+
+					<div class="card">
+
+						<h2><b> Song Playlist Generator System Based on Facial Expression and Song Mood </b></h2>
+
+						<img src="images/project_song.png" alt="Notebook" style="width:100%">
+
+						<h3> Highlights </h3>
+						<ul>
+							<li> conducted research to enhance the user experience in music streaming by developing a
+								system for generating personalized playlists based on emotion detection and user song
+								preferences.
+							</li>
+							<li> successfully integrated state-of-the-art technologies, including Convolutional Neural
+								Networks (CNN) for emotion detection and Artificial Neural Networks (ANN) for song
+								classification, showcasing my technical prowess.</li>
+							<li> achieved an impressive 84% accuracy in emotion detection using the FER-13 dataset,
+								which contains approximately 14,000 facial images and an 82% accuracy in song
+								classification. Improved performance by 4% with 0.83 F1-score</li>
+						</ul>
+
+						<p> <b>Tags:</b> Artificial Intelligence, Machine Learning, Convolutional Neural Network (CNN) ,
+							Artificial Neural Network (ANN) , Emotion Detection , Song mood classification, Song
+							Recommendation</p>
+
+						<span id="dots1" style="display: inline;">
+							<p></p>
+						</span>
+						<span id="more1" style="display: inline;">
+							<h3> Summary </h3>
+							<h4><b>1. Developing Model For Facial Emotion Detection:</b></h4>
+							<p>First, I developed a model for facial emotion detection, which involved two crucial
+								steps:</p>
+							<ul>
+								<li>
+									<p> Step 1: I utilized a Haar Cascade feature-based classifier to detect faces in
+										images.
+										This initial step allowed me to locate and isolate facial regions accurately.
+									</p>
+								</li>
+								<li>
+									<p> Step 2: I employed a Convolutional Neural Network (CNN) for emotion detection.
+										My CNN
+										model architecture comprised six convolutional layers followed by three dense
+										layers.
+										These convolutional layers had varying feature sizes, and the dense layers
+										included
+										different numbers of nodes.</p>
+								</li>
+							</ul>
+
+							<p>For training this model, I utilized the FER-13 dataset, which contains data for four
+								facial expressions: Angry, Happy, Sad, and Surprised. </p>
+							<p> The outcome of my efforts was an 83% accuracy in facial emotion recognition, with a loss
+								of 0.4532.</p>
+
+							<br>
+							<h4><b>2. Collecting User Past History Using APIs:</b></h4>
+							<p>In the second part of the project, I collected user data and their historical music
+								listening records using Application Programming Interfaces (APIs). I set up connections
+								with these APIs, likely from music streaming platforms or databases, to gather
+								user-specific information</p>
+
+							<br>
+							<h4><b>3. Song Mood Classification:</b></h4>
+							<p>Moving on to the third component, I designed a system for classifying the mood of songs.
+								The process involved:</p>
+							<ul>
+								<li>Creating a Sequential Model for song mood classification, following common deep
+									learning practices.</li>
+								<li>Utilizing the KerasClassifier to encapsulate my Sequential Model as a function.</li>
+								<li>Selecting ten relevant attributes, including song features like Length,
+									Danceability, Acousticness, Energy, Instrumentalness, Liveness, Valence, Loudness,
+									Speechiness, and Tempo, which I found useful for mood prediction.</li>
+								<li>Designing a Sequential Neural Network with four layers, each with various neuron
+									configurations.</li>
+							</ul>
+							<p>The model I created achieved an accuracy of 83% for song mood classification, considering
+								four distinct mood classes: Calm Song, Happy Song, Energetic Song, and Sad Song. The
+								dataset I used for this task was sourced from Spotify and contained over 800 songs with
+								diverse attributes.</p>
+							<p>
+								In summary, I divided the project into well-defined components. In the first part, I
+								focused on facial emotion detection using a CNN, and I achieved an 83% accuracy. The
+								second part involved collecting user data through APIs, and the third part concentrated
+								on song mood classification with a deep learning approach, also achieving an 83%
+								accuracy. These results demonstrate the effectiveness of my machine learning techniques
+								in providing personalized music recommendations based on user emotions and song
+								attributes.
+							</p>
+						</span>
+
+						<button class="btn"
+							onclick="window.open('https://github.com/kevin200010/Mood_based_Playlist_generator')"
+							type="button">GitHub repo</button>
+
+						<button class="btn"
+							onclick="window.open('https://ieeexplore.ieee.org/abstract/document/9670976')"
+							type="button">Paper</button>
+					</div>
+
+
+					<p>
+						<a id="project_1"></a>
+					</p>
+
+					<div>
+						<h1>Computer Vision</h1>
+					</div>
+
+					<div class="card">
+
+						<h2><b> Image Captioning</b></h2>
+						
+						<img src="images/image captioning.png" alt="Notebook" style="width:50%; align-items: center;">
+						
+						<h3> Highlights </h3>
+						<ul>
+							<li> Developed image captioning using several state-of-the-art CNN architectures
+								using TensorFlow. </li>
+							<li> The architectures include ResNet50, InceptionResNetv2,
+								and  DenseNet201  </li>
+							<li> Achieved highest accuracy of 87% with ResNet50 architecture. </li>
+						</ul>
+
+						<p> <b>Tags:</b> Python, Computer Vision, TensorFlow, Deep Learning, Convolutional Neural
+							Networks </p>
+
+						<span id="dots1" style="display: inline;">
+							<p></p>
+						</span>
+						<span id="more1" style="display: inline;">
+							<h3> Summary </h3>
+							<p> I first preprocessed the textual data by converting sentences to lowercase, removing special
+								characters and numbers, and adding starting and ending tags to indicate the beginning and end
+								of a sentence. I then used transfer learning to extract features from images using the ResNet50
+								and DenseNet201 convolutional neural networks. These features were combined with the
+								preprocessed textual data and fed into a recurrent neural network model consisting of an LSTM
+								layer and a fully connected output layer with a softmax activation function. </p>
+							<p> The hyperparameters of the model, such as the embedding size, LSTM units, dense units, learning
+								rate, and batch size, are tuned using Optuna, a hyperparameter optimization framework.
+								</p>
+							<p>The model was trained using the categorical cross-entropy loss function and RMSprop optimizer
+								for 200 epochs. The final model achieved a validation accuracy of around 0.87, which indicates that
+								the model is able to generate captions that are somewhat similar to the ground truth captions for
+								the input images
+								</p>
+							<h5> Below is loss and accuracy for ResNet50 Model </h5>
+							<img src="images/image captioning 2.png" alt="Notebook" style="width:50%">
+						</span>
+						<br>
+						<button class="btn"
+							onclick="window.open('https://github.com/kevin200010/CMSE890/tree/master')"
+							type="button">GitHub repo</button>
+
+						<button class="btn"
+							onclick="window.open('image Captioning final.pdf')"
+							type="button">Report </button
+					</div>
+
+					<hr class="major" />
+
+					
+
+
+					<hr class="major" />
+
+					<p>
+						<a id="project_2"></a>
+					</p>
+
+					
+
+					<hr class="major" />
+
+					<p>
+						<a id="project_3"></a>
+					</p>
+
+					<div>
+						<h1>Data Analysis</h1>
+					</div>
+					<div class="card">
+
+						<h2><b> Sales Data Analysis</b></h2>
+
+						<img src="images/Sales  Price.png" alt="Notebook" style="width:100%">
+
+						<h3> Highlights </h3>
+						<ul>
+							<li>Developing a dataset of historical transaction data containing features such as customer data, transaction history, product details, and payment method.</li>
+							<li>Preprocessing and cleaning the dataset to prepare it for machine learning model training.</li>
+							<li>Selecting relevant features and developing a model that can accurately predict the payment value for a given transaction or product.</li>
+							<li>Evaluating the performance of the model using metrics such as MSE, MAE and R2-Score.</li>
+							<l1>Fine-tuning the model to optimize its performance and ensure that it is robust and reliable.</l1>
+						</ul>
+
+						<p> <b>Tags:</b> Python, SQL, R, Data Analysis, Predictive Modeling, </p>
+
+						<span id="dots1" style="display: inline;">
+							<p></p>
+						</span>
+						<span id="more1" style="display: inline;">
+							<h3> Summary </h3>
+							<!-- <p> DDPM (Denoising Diffusion Probabilistic Models) is a type of generative model that can
+								learn to generate realistic images by estimating the probability distribution of the
+								data. DDPMs use a diffusion process to transform a random noise signal into an image
+								that is close to the target distribution. In the diffusion process, noise is gradually
+								added to the signal, and the signal is then denoised using a neural network. By
+								iteratively adding noise and denoising, the model can learn to generate high-quality
+								images that match the target distribution.</p>
+							<p> Stable diffusion is a modification of the diffusion process used in DDPMs to improve
+								their stability and performance. In stable diffusion, the amount of noise added to the
+								signal is adaptively adjusted at each step to ensure that the signal remains close to
+								the target distribution. This adaptation is done by monitoring the signal's gradient and
+								scaling the noise accordingly. Stable diffusion can help avoid numerical instability and
+								ensure that the diffusion process converges to the target distribution efficiently.</p>
+							<p> In this project, a diffusion model was trained using Hugging Face's diffusers library to
+								generate stunning butterfly images. To improve the quality of the images generated by
+								the diffusion model, a UNet architecture was trained for denoising using a noise
+								scheduler that added noise to 1000 clean butterfly images. The backward denoising
+								process was implemented using the AdamW optimizer and the mean squared error (MSE) loss
+								function to update the model parameters. Overall, this approach allowed for the
+								generation of visually impressive butterfly images with improved quality and clarity.
+							</p> -->
+						</span>
+
+						<button class="btn"
+							onclick="window.open('https://github.com/kevin200010/STT-811-Sales-Value-Prediction-Olist')"
+							type="button">GitHub repo</button>
+
+
+					</div>
+					
+					<hr class="major" />
+
+					<div class="card">
+
+						<h2><b>Worldcup Cricket Data Analysis using PowerBI Dashboard </b></h2>
+
+						<img src="images/Power BI.png" alt="Notebook" style="width:50%; height: 50%;">
+
+						<h3> Highlights </h3>
+						<ul>
+							<li> This project was performed as part of Google Data Analytics Professional Certificate
+							</li>
+							<li> Performed real-world data analysis in R for a fictional company called Cyclistic.</li>
+						</ul>
+
+						<p> <b>Tags:</b> Power BI, SQL, Data Analysis, Web Scrapping</p>
+
+						<span id="dots1" style="display: inline;">
+							<p></p>
+						</span>
+						<span id="more1" style="display: inline;">
+							<h3> Summary </h3>
+							<p> <b>Hypothetical Scenario:</b></p>
+							<p>I am a junior data analyst working in the marketing analyst team at Cyclistic, a
+								bike-share company in Chicago. The director of marketing believes the company’s future
+								success depends on maximizing the number of annual memberships. Therefore, our team
+								wants to understand how casual riders and annual members use Cyclistic bikes
+								differently. From these insights, our team will design a new marketing strategy to
+								convert casual riders into annual members. But first, Cyclistic executives must approve
+								our recommendations, so they must be backed up with compelling data insights and
+								professional data visualizations.</p>
+							</p>
+						</span>
+
+						<button class="btn"
+							onclick="window.open('https://github.com/kevin200010/Cricket-Data-analysis-using-PowerBI')"
+							type="button">GitHub repo</button>
+						<button class="btn"
+							onclick="window.open(' https://app.powerbi.com/view?r=eyJrIjoiZDYxOTQxZmEtZWU0YS00NTE4LWE2MWMtNWZlOWNkN2FjNjdiIiwidCI6IjIyMTc3MTMwLTY0MmYtNDFkOS05MjExLTc0MjM3YWQ1Njg3ZCIsImMiOjN9&embedImagePlaceholder=true')"
+							type="button">Power BI Dashboard</button>
+					</div>
+
+					<hr class="major" />
+
+					<p>
+						<a id="project_4"></a>
+					</p>
+
+					 <div>
+						<h1>Statistical Analysis</h1>
+					</div>
+					<div class="card">
+
+						<h2><b> Healthcare Institution Situation Analysis using R</b></h2>
+
+						<img src="images/healthcare_1.png" alt="Notebook" style="width:100%">
+
+						<h3> Highlights </h3>
+						<ul>
+							<li> Built a binary classification model using chest X-Ray images and VGG-16 convolutional
+								neural network architecture pre-trained on ImageNet.</li>
+							<li> New fully-connected layer was added to the pre-trained network to classify images as
+								either normal or COVID-affected.</li>
+							<li> Model was trained and achieved an accuracy of 93%.</li>
+						</ul>
+
+						<p> <b>Tags:</b> Python, Computer Vision, TensorFlow, Deep Learning, Convolutional Neural
+							Networks </p>
+
+						<span id="dots1" style="display: inline;">
+							<p></p>
+						</span>
+						<span id="more1" style="display: inline;">
+							<h3> Summary </h3>
+							<p> In recent years, deep learning has shown promising results in medical image analysis,
+								including detecting COVID-19 from chest X-rays. One popular approach is to use
+								pre-trained convolutional neural network (CNN) models, such as VGG-16, ResNet, or
+								DenseNet, and fine-tune them on COVID-19 chest X-ray datasets. The fine-tuning process
+								involves removing the original classification layer and adding a new one to adapt the
+								model to the specific COVID-19 detection task.</p>
+							<p> Besides using pre-trained models, researchers have also developed specialized
+								architectures for COVID-19 detection. For example, COVID-Net is a CNN model specifically
+								designed for COVID-19 detection from chest X-rays. COVID-Net uses a series of
+								convolutional and pooling layers followed by several fully-connected layers to classify
+								chest X-rays as normal, pneumonia, or COVID-19.</p>
+							<p> The goal of the project is to develop a machine learning model that can accurately and
+								quickly detect COVID-19 infection from chest X-ray images. By achieving an accuracy of
+								93%, the model shows promise as a potential tool for COVID-19 screening and diagnosis.
+							</p>
+						</span>
+
+						<button class="btn"
+							onclick="window.open('https://github.com/NvkAnirudh/Covid-19-XRay-Detection')"
+							type="button">GitHub repo</button>
+
+						<button class="btn"
+							onclick="window.open('https://kevin200010-cmse-final-app-obb2kk.streamlit.app/')"
+							type="button">Dashboard</button>
+
+
+					</div>
+					<!--
+					<div class="card">
+
+						<h2><b> Campus Recruitment Analysis </b></h2>
+
+						<img src="images/Methods-of-Statistical-Analysis.jpeg" alt="Notebook" style="width:100%">
+
+						<h3> Highlights </h3>
+						<ul>
+							<li> Conducted Multiple Linear Regression analysis to predict employment test percentage
+								based on high school, secondary education, and degree percentages.</li>
+							<li> Executed a one-way Analysis of Variance (ANOVA) to compare employment test percentage
+								means between male and female groups.</li>
+						</ul>
+
+						<p> <b>Tags:</b> R, Data Analysis</p>
+
+						<span id="dots1" style="display: inline;">
+							<p></p>
+						</span>
+						<span id="more1" style="display: inline;">
+							<h3> Summary </h3>
+
+							<p>Statistical analysis is a collection of techniques used to analyze data in order to draw
+								meaningful conclusions and insights from it. It involves collecting, organizing,
+								analyzing, and interpreting data using mathematical and statistical methods. Statistical
+								analysis is widely used in various fields such as business, economics, social sciences,
+								medicine, and engineering, among others. It allows researchers to test hypotheses, make
+								predictions, and estimate probabilities. Some common statistical techniques include
+								descriptive statistics, hypothesis testing, regression analysis, analysis of variance,
+								and factor analysis, among others. Proper statistical analysis is crucial for making
+								informed decisions based on data and ensuring that the results are reliable and
+								accurate.</p>
+							<p>This project describes two statistical analyses that were conducted. The first analysis
+								was a Multiple Linear Regression, which aimed to predict employment test percentage
+								based on high school, secondary education, and degree percentages. The second analysis
+								was a one-way Analysis of Variance (ANOVA), which was used to compare the mean
+								employment test percentage between male and female groups. The ANOVA was performed to
+								determine whether there was a significant difference in employment test scores between
+								males and females. These statistical analyses are useful for identifying patterns and
+								relationships in data, and for making informed decisions based on the results.</p>
+						</span>
+
+						<button class="btn" onclick="window.open('https://github.com/NvkAnirudh/Campus_Recruitment')"
+							type="button">GitHub repo</button>
+					</div> -->
+
+					<hr class="major" />
+
+					<p>
+						<a id="project_5"></a>
+					</p>
+
+					<div>
+						<h1>Extract, Transform, and Load (ETL)</h1>
+					</div>
+					<div class="card">
+
+						<h2><b> Movies Recommendation System </b></h2>
+
+						<img src="images/mongodb-aws-logos.jpeg" alt="Notebook" style="width:100%">
+
+						<h3> Highlights </h3>
+						<!-- <ul>
+							<li> Worked on data analysis for financial services using MongoDB database containing three
+								documents.</li>
+							<li> Created a docker container to run MongoDB data analysis in R and deployed it on AWS EC2
+								instance using Jenkins
+								pipeline for continuous integration and deployment of Docker images from GIT.</li>
+						</ul> -->
+
+						<p> <b>Tags:</b> R, NoSQL (MongoDB), Docker, Jenkins, AWS</p>
+
+						<span id="dots1" style="display: inline;">
+							<p></p>
+						</span>
+						<span id="more1" style="display: inline;">
+							<h3> Summary </h3>
+							<!-- <p> In this project, I worked on data analysis for financial services using a MongoDB
+								database containing three documents. To analyze the data, I created a docker container
+								to run MongoDB in R and deployed it on an AWS EC2 instance. To facilitate continuous
+								integration and deployment of Docker images from Git, I set up a Jenkins pipeline. This
+								approach allowed for efficient and streamlined data analysis and deployment, enabling
+								the financial services company to make data-driven decisions and improve their business
+								operations.</p>
+							</p> -->
+						</span>
+
+						<!-- <button class="btn"
+							onclick="window.open('https://github.com/NvkAnirudh/Financial-Services-Analysis-using-R-and-MongoDB')"
+							type="button">GitHub repo</button> -->
+					</div>
+
+					<hr class="major" />
+					<!-- <div class="switch-container">
+										<label class="switch">
+										  <input type="checkbox">
+										  <span class="slider round"></span>
+										</label>
+									</div> -->
+
+
+
+				</section>
+
+			</div>
+		</div>
+
+		<!-- Sidebar -->
+		<div id="sidebar">
+			<div class="inner">
+
+				<!-- Menu -->
+				<nav id="menu">
+					<header class="major">
+						<h2>Menu</h2>
+					</header>
+					<ul>
+						<li><a href="index.html">About</a></li>
+						<li><a href="experience.html">Experience</a></li>
+						<li><a href="projects.html">Projects</a></li>
+						<!-- <li>
+										<span class="opener">Projects</span>
+										<ul>
+											<li><a href="cv.html">Computer Vision</a></li>
+											<li><a href="#">Data Analysis</a></li>
+											<li><a href="#">Databases</a></li>
+											<li><a href="#">Diffusin Models</a></li>
+										</ul>
+									</li> -->
+						<li><a href="blogs.html">Blogs writing</a></li>
+						<!-- <li><a href="#">More Me!</a></li> -->
+					</ul>
+				</nav>
+
+				<!-- Section -->
+				<section>
+					<header class="major">
+						<h2>Get in touch</h2>
+					</header>
+					<p>Feel Free to get in touch with me through email id or phone mentioned below. You can also reach
+						out to me through social media profiles attached on top of this page. Peace!</p>
+					<ul class="contact">
+						<li class="icon solid fa-envelope"><a href="#">kevin18patel@gmail.com</a></li>
+						<li class="icon solid fa-phone">(517) 507-9591</li>
+						<li class="icon solid fa-home">East Lansing, MI</li>
+					</ul>
+				</section>
+
+				<!-- Footer -->
+				<footer id="footer">
+					<p class="copyright">&copy; Kevin Patel All rights reserved.</a>.</p>
+				</footer>
+
+			</div>
+		</div>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
